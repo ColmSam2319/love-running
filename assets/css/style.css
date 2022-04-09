@@ -66,9 +66,11 @@ h2 {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -93,46 +95,73 @@ h2 {
     }
 }
 
-#cover-text
-{
-font-size: 130%;
-font-family: oswald, sans-serif;
-text-transform: uppercase;
-letter-spacing: 4px;    
+#cover-text {
+    font-size: 130%;
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 
-width: 300px;
-height: 200px;
+    width: 300px;
+    height: 200px;
 
-padding-top: 40px;
-padding-left: 10px;
+    padding-top: 40px;
+    padding-left: 10px;
 
-background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(241, 109, 107, .7);
 
-bottom: 30px;
-right: 150px;
+    bottom: 30px;
+    right: 150px;
 
-position: absolute;
+    position: absolute;
 
 }
 
-#club-ethos{
+#club-ethos {
     height: 600px;
 }
 
-#left-about{
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
-#right-about{
+
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
 }
-#center-about{
+
+#center-about {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+.right-about-heading h2{
+    text-align: right;
+}
+.right-about-heading p{
+    text-align: right;
 }
